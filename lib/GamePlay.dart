@@ -3,13 +3,13 @@ import "package:flutter/material.dart";
 import 'dart:math';
 
 //Easy class which is a stateful widget
-class EasyRoute extends StatefulWidget {
+class GamePlay extends StatefulWidget {
   @override
-  _EasyRoute createState() => _EasyRoute();
+  _GamePlay createState() => _GamePlay();
 }
 
 //user landing class
-class _EasyRoute extends State<EasyRoute> {
+class _GamePlay extends State<GamePlay> {
 
   //declaring variables
   var bList = ["","","","","","","","",""];   //list of empty string
@@ -207,7 +207,7 @@ class _EasyRoute extends State<EasyRoute> {
         home: Scaffold(   //create an empty whole page which is the main layout
             appBar: AppBar(   //create an app bar for the page
               backgroundColor: Colors.blue[800],    //color of the app bar
-              title: Text("BEGINNER",   //text displayed on the app bar
+              title: Text("Tic-Tac-Toe",   //text displayed on the app bar
                   style: new TextStyle(fontFamily: "Times New Roman")   //the font style of the text
               ),
             ),
@@ -223,7 +223,7 @@ class _EasyRoute extends State<EasyRoute> {
                               mainAxisAlignment: MainAxisAlignment.center,    //alignment of the row
                               children: [   //holds widgets for the previous widgets
                                 new Padding(padding: EdgeInsets.only(bottom: 50.0)),    //distance between border and text
-                                Text("GOOD LUCK!",    //insertion of text
+                                Text("GOOD LUCK !",    //insertion of text
                                   style: TextStyle(fontSize: 23.0,    //size of the text
                                       fontFamily: 'Times New Roman',   //font style of the text
                                       color: Colors.white

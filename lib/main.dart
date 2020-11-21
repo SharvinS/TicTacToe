@@ -1,6 +1,6 @@
 //Import files
 import 'package:flutter/material.dart';
-import 'package:tictactoe_test/1-Player.dart';
+import 'package:tictactoe_test/GamePlay.dart';
 
 void main() => runApp(MyApp());
 
@@ -58,11 +58,11 @@ class HomeScreen extends StatelessWidget {
                             Navigator.push(
                               context,
                               new MaterialPageRoute(
-                                  builder: (context) => EasyRoute()   //the destination page to navigate too
+                                  builder: (context) => GamePlay()  //the destination page to navigate too
                               ),
                             );
                           },
-                          child:  Text('1-PLAYER',)   //text displayed on the button
+                          child:  Text('START GAME',)   //text displayed on the button
                       )
                   ),
                 ),
