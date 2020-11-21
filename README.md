@@ -1,6 +1,6 @@
-# tictactoe_test
+# Tic-Tac-Toe
 
-A new Flutter application that allows users to play the well-known game TicTacToe in a single player mode.
+A Flutter application that allows users to play the well-known game TicTacToe in a single player mode.
 
 ## Getting Started
 
