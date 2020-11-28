@@ -2,6 +2,9 @@
 
 A Flutter application that allows users to play the well-known game TicTacToe in a single player mode.
 
+Thank you for supporting each other in the community even if it's small.\
+[PayPal](https://paypal.me/sharvinsingh?locale.x=en_US)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
